@@ -33,7 +33,7 @@ BigQuery (Top 3 airlines per year)
 Each airline is scored annually combining three carrier-specific metrics:
 
 - **Carrier Reliability Rate (50%)** — percentage of flights with no carrier-caused delay
-- **Carrier Caused Delay % (30%)** — proportion of delays attributed to the airline
+- **Carrier Caused Delay (30%)** — proportion of delays attributed to the airline
 - **Average Delay Severity (20%)** — average carrier delay minutes per delayed flight, normalized using min-max scaling
 
 ## Tech Stack

@@ -23,12 +23,10 @@ BigQuery (Top 3 airlines per year)
 Looker Studio Dashboard
 ```
 
-## Dataset
-
 ## Dashboard
 <img width="1917" height="832" alt="image" src="https://github.com/user-attachments/assets/bffce4a9-cc4b-45eb-b8f7-153d19252ddd" />
 
-
+## Dataset
 - **Source:** US Bureau of Transportation Statistics (BTS)
 - **Size:** 135,000+ records
 - **Period:** 2020–2025

@@ -19,9 +19,15 @@ Dataproc (PySpark)
 GCS (Processed Parquet, partitioned by year)
       ↓
 BigQuery (Top 3 airlines per year)
+      ↓
+Looker Studio Dashboard
 ```
 
 ## Dataset
+
+## Dashboard
+<img width="1917" height="832" alt="image" src="https://github.com/user-attachments/assets/bffce4a9-cc4b-45eb-b8f7-153d19252ddd" />
+
 
 - **Source:** US Bureau of Transportation Statistics (BTS)
 - **Size:** 135,000+ records
@@ -50,9 +56,12 @@ Each airline is scored annually combining three carrier-specific metrics:
 3. Create a Dataproc single-node cluster
 4. Submit PySpark job pointing to the script in GCS
 5. Output writes to GCS (Parquet) and BigQuery automatically
+6. Connect BigQuery table to Looker Studio for dashboard visualization
 
 ## Output
 
 **GCS:** Processed metrics in Parquet format partitioned by year
 
 **BigQuery:** Top 3 most reliable airlines per year with composite scores
+
+**Looker Studio:** Interactive analytics dashboard for airline reliability rankings and yearly performance insights
